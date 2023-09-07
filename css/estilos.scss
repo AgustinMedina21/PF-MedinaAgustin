@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.titulo{
+    float: left;
+    font-weight: bold;
+    color:#333;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    display: flex;
+    color: #fff;
+}
+
+.left{
+    width: 344px;
+    height: 700px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 68px auto;
+}
+
+.termoimg1{
+    width: 100%;
+}
+
+.combo_titulo1{
+    color: var(--dark-grayish-blue);
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 18px 24px 8px 24px;
+}
+
+.comboinfo1{
+    margin: 0 24px 10px 24px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.txt{
+    margin: 0 24px 15px 24px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.precio{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0 24px 16px 24px;
+}
+
+.preciodes{
+    font-size: 35px;
+}
+
+.preciodes2{
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+.precioof{
+    text-decoration: line-through;
+}
+
+.button{
+    width: 296px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    display: block;
+    margin: auto;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 12px;
+}
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.info{
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.video{
+    margin: 50px;
+    width: 260px;
+    height: 315px;
+}
+
+.adicional{
+    margin: 20px;
+    text-align: center;
+}
+
+.interseccion{
+    background-color: #333;
+    color: white;
+}
+
+.informacion{
+    text-align: center;
+}
+
+.redes{
+    background-color: #333;
+    text-align: center;
+}
+
+.mision{
+    text-align: center;
+}
+
+.contacto{
+    margin: 10px;
+}
+
+.columna{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        align-items: center;
+        padding: 80px;
+}
+
+.mapa{
+    width: 250px;
+    height: 100px;
+    display: flex;
+}
+
+.wsp{
+    font-size: 10px;
+    margin: 20px;
+}
+
+
+@media (min-width: 620px){
+    .left{
+        width: 650px;
+        height: 450px;
+        display: flex;
+        margin: 175px auto 75px;
+    }
+
+    .termoimg{
+        width: 300px;
+    }
+
+    .card__second{
+        width: 300px;
+    }
+
+    .titulo{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .barra{
+        font-size: 20px;
+        margin: 10px;
+        color: #333;
+    }
+
+    .video{
+    margin: auto;
+    }
+
+    .adicional{
+        width: 450px;
+        height: 100px;
+        display: flex;
+        margin: 80px auto 80px;
+        font-size: 15px;
+    }
+
+    .informacion{
+        text-align: center;
+        padding: 50px;
+    }
+
+    .mision{
+        text-align: center;
+    }
+
+    .columna {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .sub{
+        font-size: 15px;
+    }
+
+    .mapa{
+        width: 650px;
+        height: 250px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .interseccion{
+        background-color:#333;
+        color: white;
+        text-align: center;
+    }
+}
