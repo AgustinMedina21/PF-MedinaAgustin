@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Roboto:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 10px;
+    margin: 15px;
+}
+
+.left {
+    width: 344px;
+    height: 700px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 68px auto;
+}
+
+.termoimg1 {
+    width: 100%;
+}
+
+.combo_titulo1 {
+    color: var(--dark-grayish-blue);
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 18px 24px 8px 24px;
+}
+
+.comboinfo1 {
+    margin: 0 24px 10px 24px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.txt {
+    margin: 0 24px 15px 24px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.precio {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0 24px 16px 24px;
+}
+
+.preciodes {
+    font-size: 35px;
+}
+
+.preciodes2 {
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+.precioof {
+    text-decoration: line-through;
+}
+
+.button {
+    width: 296px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    display: block;
+    margin: auto;
+    position: relative;
+    outline: none;
+    transition: 3s;
+    overflow: hidden;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+button span{
+    position: absolute;
+    background: #000000;
+    transition: 1s;
+}
+
+button span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1){
+    left: 0;
+}
+
+button:hover span:nth-child(2){
+    right: 0;
+}
+
+button:hover span:nth-child(3){
+    bottom: 0;
+}
+
+button:hover span:nth-child(4){
+    top: 0;
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.info {
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.video {
+    margin: 50px;
+    width: 260px;
+    height: 315px;
+}
+
+.adicional {
+    margin: 20px;
+    text-align: center;
+}
+
+.interseccion {
+    background-color: #333;
+    color: white;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.redes {
+    background-color: #333;
+    text-align: center;
+}
+
+.mision {
+    text-align: center;
+}
+
+.contacto {
+    margin: 10px;
+}
+
+.columna {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+    padding: 80px;
+}
+
+.mapa {
+    width: 250px;
+    height: 100px;
+    display: flex;
+}
+
+.wsp {
+    font-size: 10px;
+    margin: 20px;
+}
+
+@media (min-width: 620px) {
+
+.left {
+    width: 650px;
+    height: 450px;
+    display: flex;
+    margin: 175px auto 75px;
+}
+.termoimg {
+    width: 300px;
+}
+.card__second {
+    width: 300px;
+}
+.titulo {
+    font-size: 20px;
+    margin: 40px;
+}
+.barra {
+    font-size: 20px;
+    margin: 10px;
+    color: #333;
+}
+.video {
+    margin: auto;
+}
+.adicional {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    margin: 80px auto 80px;
+    font-size: 15px;
+}
+.informacion {
+    text-align: center;
+    padding: 50px;
+}
+.mision {
+    text-align: center;
+}
+.columna {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+    padding: 5rem;
+}
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem;
+}
+.sub {
+    font-size: 15px;
+}
+.mapa {
+    width: 650px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+.interseccion {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+}
+
+@media (min-width: 1024px) {
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 8rem;
+}
+
+.adicional {
+    width: 650px;
+    height: 100px;
+    display: flex;
+    margin: 80px auto 80px;
+    font-size: 15px;
+    gap: 3rem;
+}
+}
