@@ -14,10 +14,11 @@
 
 .left {
   width: 344px;
-  height: 700px;
+  height: 750px;
   border-radius: 12px;
   overflow: hidden;
   margin: 68px auto;
+  justify-content: center;
 }
 
 .termoimg1 {
@@ -202,6 +203,15 @@ button:hover span:nth-child(4){
   margin: 20px;
 }
 
+.paginas_redes{
+  text-align: center;
+}
+
+.subtitulo{
+  text-align: center;
+  padding: 20px;
+}
+
 @media (min-width: 620px) {
 
   .left {
@@ -277,10 +287,10 @@ button:hover span:nth-child(4){
   .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 12rem;
+    gap: 11rem;
     align-items: center;
     padding: 1rem;
-    margin: 8rem;
+    margin: 7.5rem;
   }
 
   .adicional {
@@ -291,5 +301,11 @@ button:hover span:nth-child(4){
     font-size: 15px;
     gap: 3rem;
   }
+
+  .instagram{
+    margin: 50px;
+    padding: 50px;
+  }
+
 }
 /*# sourceMappingURL=estilos.css.map */
